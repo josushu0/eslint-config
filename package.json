@@ -1,7 +1,7 @@
 {
 	"name": "@josushu0/eslint-config",
 	"version": "0.1.0",
-	"description": "Josushu0 ESlint style guide",
+	"description": "Josushu0's ESlint style guide",
 	"main": "index.js",
 	"files": [
 		"index.js"
