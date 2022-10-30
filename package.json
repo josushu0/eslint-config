@@ -1,12 +1,16 @@
 {
 	"name": "@josushu0/eslint-config",
-	"version": "1.0.0",
-	"description": "My eslint style guide",
+	"version": "0.1.0",
+	"description": "Josushu0 ESlint style guide",
 	"main": "index.js",
-	"keywords": [
-		"eslint"
+	"files": [
+		"index.js"
 	],
-	"author": "josushu0",
+	"keywords": [
+		"eslint-config"
+	],
+	"author": "Josué Martell <https://github.com/josushu0>",
+	"homepage": "https://github.com/josushu0/eslint-config",
 	"license": "MIT",
 	"peerDependencies": {
 		"eslint": ">=6.2.0"
