@@ -31,7 +31,7 @@ module.exports = {
 		'eol-last': [ 'error', 'always' ],
 		'eqeqeq': [ 'error', 'smart' ],
 		'func-call-spacing': [ 'error', 'never' ],
-		'function-call-argument-newline': [ 'error', 'never' ],
+		'function-call-argument-newline': [ 'error', 'consistent' ],
 		'function-paren-newline': [ 'error', 'multiline' ],
 		'generator-star-spacing': [
 			'error',
