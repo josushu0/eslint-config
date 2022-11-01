@@ -5,7 +5,7 @@ module.exports = {
 			'error',
 			'never'
 		],
-		'array-element-newline': [ 'error', { 'multiline': true }],
+		'array-element-newline': [ 'error', 'consistent'],
 		'arrow-body-style': [ 'error', 'as-needed' ],
 		'arrow-parens': [ 'error', 'always' ],
 		'arrow-spacing': [
