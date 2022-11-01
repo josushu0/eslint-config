@@ -3,11 +3,7 @@ module.exports = {
 		'array-bracket-newline': [ 'error', { 'multiline': true }],
 		'array-bracket-spacing': [
 			'error',
-			'always',
-			{
-				'objectsInArrays': false,
-				'arraysInArrays': false
-			}
+			'never'
 		],
 		'array-element-newline': [ 'error', { 'multiline': true }],
 		'arrow-body-style': [ 'error', 'as-needed' ],
@@ -110,12 +106,21 @@ module.exports = {
 			'error',
 			'always',
 			{
-				'arraysInObjects': false,
-				'objectsInObjects': false
+				'arraysInObjects': true,
+				'objectsInObjects': true
 			}
 		],
 		'object-property-newline': 'error',
-		'operator-linebreak': [ 'error', 'none' ],
+		'operator-linebreak': [
+			'error',
+			'none',
+			{
+				'overrides': {
+					'?': 'ignore',
+					':': 'ignore'
+				}
+			}
+		],
 		'padded-blocks': [ 'error', 'never' ],
 		'quotes': [ 'error', 'single' ],
 		'rest-spread-spacing': [ 'error', 'never' ],
